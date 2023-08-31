@@ -1,4 +1,4 @@
-# Resources and Information for OIM3600 - Computer Science for Business Students
+# OIM3600 - Computer Science for Business Students - Resources
 ### Class Information:
 
 - [Syllabus](syllabus_2023fall.md)
