@@ -3,7 +3,7 @@
 
 ## Datetime and Address
 - Class Time: 
-  - Friday: 9:30AM - 12:30 AM, Babson Commons 101  
+  - Friday: 9:30AM - 12:30PM, Babson Commons 101  
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -25,7 +25,7 @@ If you need help outside of class and office hours, use Slack/email to schedule 
   - Used for: traditional stuff (Announcements, assignments, sensitive information...)
 - [GitHub](https://github.com/OIM3600):
   - What: Course GitHub repositories
-  - Used for: materials; demo code; homework/exam starter code.
+  - Used for: materials; demo code; homework/quiz starter code.
 - Slack:
   - What: Course Slack channel
   - Used for: debugging help, clarifications, real-time discussion and random chat.
@@ -57,10 +57,10 @@ There are no required textbooks for this course. All course material will be pre
 
 ## Grading
 
-- Participation/In-class Exercises: 30%
+- Participation/In-class Activities/Exercises: 30%
 - Quizzes: 10%
-- Labs/"Mini" Projects: 30%
-- Final Project: 30%
+- Homework/Labs: 35%
+- Final Project: 25%
 
 | Grade | Range    |
 | :---- | :------- |
