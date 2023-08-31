@@ -2,7 +2,7 @@
 
 | Week  | Session # |  Date | Topic                            | Homework | Labs/Projects |
 | :---: | :-------: | ----: | :------------------------------- | :------- | :------------ |
-|   1   |     1     |  9/01 | Course Introduction, Hardware    |          |               |
+|   1   |     1     |  9/01 | Course Introduction              |          |               |
 |       |     2     |       | Code, Hardware                   | HW 1     |               |
 |   2   |     3     |  9/08 | Computational Thinking           |          |               |
 |       |     4     |       | Scratch                          |          | Lab 1         |
@@ -33,4 +33,4 @@
 
 **Notice:** For information on deadlines and quiz times, please refer to the Canvas website. Please note that the schedule provided here is subject to change and is for tentative planning purposes only.
 
-*updated: 8/24/2023*
+*updated: 8/31/2023*
