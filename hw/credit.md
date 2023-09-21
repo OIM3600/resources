@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
-2. In VS Code, create a new folder `credit`. Then, under `mario-less` folder, create a new file, `credit.py`.
+2. In VS Code, create a new folder `credit`. Then, under `credit` folder, create a new file, `credit.py`.
 
 ## Credit Cards
 
@@ -81,10 +81,9 @@ Number: 6176292929
 INVALID
 ```
 
-Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) Here are a few card numbers that PayPal recommends for testing.
+Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) Here are [a few card numbers](https://developer.paypal.com/api/nvp-soap/payflow/integration-guide/test-transactions/#standard-test-cards) that PayPal recommends for testing.
 
 If your program behaves incorrectly on some inputs (or doesn’t compile at all), time to debug!
-
 
 # How to Submit
 
