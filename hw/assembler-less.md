@@ -4,8 +4,8 @@
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
 2. In VS Code, create a new folder `assembler-less`. 
-3. Under `assembler-less` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-less/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
-3. Under `assembler-less` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-less/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
+3. Under `assembler-less` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler-less/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
+3. Under `assembler-less` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler-less/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
 
 ## Create an interpreter of assembler
 
@@ -24,7 +24,7 @@ Your task is to implement the `assembler` function in the `assembler.py` file. T
 
 ```
 # input
-['dec 8', 'inc 7', 'dec 6', 'dec 3', 'dec 8', 'inc 2']
+['dec 8', 'inc 7', 'inc 6', 'dec 3', 'inc 8', 'dec 2']
 
 # visualized:
 dec 8
