@@ -55,12 +55,12 @@ Here's how to test your code manually:
     ```py
     1 PEACH
     1 STRAWBERRIES
-    TOTAL CALORIES: 110  
+    TOTAL CALORIES: 110
     ```
 - Run your program with python `nutrition.py`. Type `Avocado` and press Enter, then type `Avocado` again and press Enter, then type `done` and press Enter. Your program should output:
     ```py
     2 AVOCADO
-    Calories: 100   
+    Calories: 100
     ```
 
 # How to Submit
