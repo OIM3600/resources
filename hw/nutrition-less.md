@@ -41,15 +41,15 @@ Here's how to test your code manually:
 
 - Run your program with python `nutrition.py`. Type `Apple` and press Enter. Your program should output:
     ```py
-    Calories: 130   
+    Calories: 130
     ```
 - Run your program with python `nutrition.py`. Type `Avocado` and press Enter. Your program should output:
     ```py
-    Calories: 50   
+    Calories: 50
     ```
 - Run your program with python `nutrition.py`. Type `Sweet Cherries` and press Enter. Your program should output
     ```py
-    Calories: 100   
+    Calories: 100
     ```
 - Run your program with python `nutrition.py`. Type `Tomato` and press Enter. Your program should output nothing.
 
