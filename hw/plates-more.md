@@ -46,11 +46,6 @@ main()
 
 Here's how to test your code manually:
 
-- Type `OIM360` and press Enter. Your program should output:
-    ```
-    Valid
-    ```
-
 - Type `OIM036` and press Enter. Your program should output:
     ```
     Invalid
