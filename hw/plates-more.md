@@ -45,14 +45,6 @@ main()
 ## How to Test
 
 Here's how to test your code manually:
-- Type `BABSON` and press Enter. Your program should output:
-    ```
-    Valid
-    ```
-- Type `OIM360` and press Enter. Your program should output:
-    ```
-    Valid
-    ```
 
 - Type `OIM036` and press Enter. Your program should output:
     ```
