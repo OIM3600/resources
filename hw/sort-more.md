@@ -5,7 +5,7 @@
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
 2. In VS Code, create a new folder `sort-more`. Then, under `sort-more` folder, create a new file, `sort.py`. 
 3. Under `sort-more` folder, create a new file, `answers.md`. Copy the code from [`answers.md`](./sort-more/answers.md) on GitHub, and paste to the `answers.md` file you create in VS Code.
-4. Download `sort.zip` file from [`sort.zip`](./sort-more/sort.zip) on GitHub. Extract all the files from `sort.zip` into the `data` folder, which should be inside the main `OIM3600` folder. Make sure all the `.txt` files are **directly** inside the **`"data"`** folder (not the `"sort-less"` folder or `"data/sort"` folder).
+4. Download `sort.zip` file from [`sort.zip`](./sort-more/sort.zip) on GitHub. Extract all the files from `sort.zip` into the `data` folder, which should be inside the main `OIM3600` folder. Make sure all the `.txt` files are **directly** inside the **`"data"`** folder (not the `"sort-more"` folder or `"data/sort"` folder).
 
 
 ## Background
