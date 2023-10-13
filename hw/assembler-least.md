@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
+1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to  the folder in your **VS Code**.
 2. In VS Code, create a new folder `assembler-least`. 
 3. Under `assembler-least` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-least/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
 3. Under `assembler-least` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-least/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.

@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
+1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
 2. In VS Code, create a new folder `plates-more`. Then, under `plates-more` folder, create a new file, `plates.py`.
 3. You may need to download [words.txt](../code/data/words.txt) for one of the requirements.
 

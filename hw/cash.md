@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
+1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
 2. In VS Code, create a new folder `cash`. Then, under `cash` folder, create a new file, `cash.py`. Copy the code from [`cash.py`](./cash/cash.py) on GitHub, and paste to the `cash.py` file you create in VS Code.
 
 ## Greedy Algorithms

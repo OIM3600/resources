@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
+1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
 2. In VS Code, create a new folder `countries`. Then, under `countries` folder, create a new file, `countries.py`.
 
 ## Exploring World Countries with Countries API
