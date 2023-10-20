@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `songs`. Then, under `songs` folder, create files named `1.sql` through `8.sql`.
+2. In VS Code, create a new folder `songs`. Then, under `songs` folder, create files named `1.sql` through `9.sql`.
 3. Download `songs.db` file from [`songs.db`](./songs/songs.db) on GitHub. Copy the downloaded file `songs.db` into the `data` folder, which should be inside the main `OIM3600` folder. 
 
 ## Understanding
@@ -41,6 +41,7 @@ For each of the following problems, you should write a single SQL query that out
 8. In `8.sql`, write a SQL query that lists the names of the songs that feature other artists.
    - Songs that feature other artists will include “feat.” in the name of the song.
    - Your query should output a table with a single column for the name of each song.
+9. **Your Query Challenge**: In `9.sql`, create your own SQL query that uses at least one JOIN operation to extract specific information from the database. Write the SQL query, state your purpose, and provide a brief explanation.
 
 
 <details>
