@@ -62,5 +62,5 @@ After you’ve configured your database with your new schema, you can begin inse
 
 # How to Submit
 
-- Save all the files opened in VS Code. Format your Python code before saving.
+- Save all the files opened in VS Code. Format your code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.
