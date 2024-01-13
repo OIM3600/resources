@@ -3,7 +3,7 @@
 
 ## Datetime and Address
 - Class Time: 
-  - Friday: 9:30AM - 12:30PM, Babson Commons 101  
+  - Friday: 9:00AM - 12:00PM, Horn Computer Center 164
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -12,8 +12,8 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - IN-PERSON: 
-    - Monday: 11:30AM - 12:30PM, Babson Hall 216D
-    - Wednesday: 4:45PM - 5:30PM, Babson Hall 216D
+    - Tuesday: 4:45PM - 5:30PM, Babson Hall 216D
+    - Thursday: 1:15PM - 2:15PM, Babson Hall 216D
   - ONLINE: Webex by appointment
 
 ## Communication
