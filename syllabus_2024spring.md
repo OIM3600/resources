@@ -1,4 +1,4 @@
-# OIM3640 Computer Science for Business Students - 2023 Fall - Syllabus
+# OIM3640 Computer Science for Business Students - 2024 Spring - Syllabus
 
 
 ## Datetime and Address
