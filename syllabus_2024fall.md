@@ -57,10 +57,10 @@ There are no required textbooks for this course. All course material will be pre
 
 ## Grading
 
-- Participation/In-class Activities/Exercises: 30%
+- Participation/In-class Activities/Exercises: 20%
 - Quizzes: 10%
 - Homework/Labs: 35%
-- Final Project: 25%
+- Final Project: 35%
 
 | Grade | Range    |
 | :---- | :------- |
