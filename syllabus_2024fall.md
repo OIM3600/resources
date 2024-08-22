@@ -1,9 +1,9 @@
-# OIM3640 Computer Science for Business Students - 2024 Spring - Syllabus
+# OIM3640 Computer Science for Business Students - 2024 Fall - Syllabus
 
 
 ## Datetime and Address
-- Class Time: 
-  - Friday: 9:00AM - 12:00PM, Horn Computer Center 164
+- Class Time: **Monday**, **Wednesday**
+  - 9:45AM-11:15AM, Horn Computer Center 169
 - (Backup) Online Class Platform: Webex (check Canvas for Webex link)
 
 ## Instructor Information
@@ -12,8 +12,8 @@
 - E-mail: [zli@babson.edu](mailto:zli@babson.edu)
 - Office Hours:
   - IN-PERSON: 
-    - Tuesday: 4:45PM - 5:30PM, Babson Hall 216D
-    - Thursday: 1:15PM - 2:15PM, Babson Hall 216D
+    - Monday: 12:15PM - 1:15PM, Babson Hall 216D
+    - Wednesday: 5:00PM - 6:00PM, Babson Hall 216D
   - ONLINE: Webex by appointment
 
 ## Communication
