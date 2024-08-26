@@ -57,8 +57,7 @@ There are no required textbooks for this course. All course material will be pre
 
 ## Grading
 
-- Participation/In-class Activities/Exercises: 20%
-- Quizzes: 10%
+- Participation/In-class Activities/Quizzes: 30%
 - Homework/Labs: 35%
 - Final Project: 35%
 
@@ -78,9 +77,11 @@ There are no required textbooks for this course. All course material will be pre
 
 ## Course Policies
 
+- **Participation**: Active participation is an essential component of this course. Students are expected to engage fully in class discussions, coding exercises, and collaborative projects. Participation is instrumental in reinforcing learning and fostering a deeper understanding of key concepts. This engagement will be evaluated and will contribute to your final grade.
+
 - **Missed Classes**: It is mandatory for students to inform the instructor if they will be absent from a class. Students who miss a class are responsible for obtaining all materials and information that were distributed or covered during the class they missed.
 
-- **Need for Academic Accommodation**: Babson College is committed to providing equal educational opportunities for students with disabilities. Any student who may need accommodation(s) based on the impact of a disability should contact the Department of Accessibility Services (DAS) as early in the semester as possible. Accessibility Services staff may be reached by email at accessibility@babson.edu, by phone at 781-239-5509, or by visiting Hollister Hall, Suite 220.  Accessibility Services staff will coordinate reasonable academic accommodations for eligible students.
+- **Need for Academic Accommodation**: Babson College is committed to providing equal educational opportunities for students with disabilities. Any student who may need accommodation(s) based on the impact of a disability should contact the Department of Accessibility Services (DAS) as early in the semester as possible. Accessibility Services staff may be reached by email at accessibility@babson.edu, by phone at 781-239-5509, or by visiting Hollister Hall, Suite 220. Accessibility Services staff will coordinate reasonable academic accommodations for eligible students.
 
 - **Need for Religious Accommodations**: Any student who faces a conflict between the requirements of a course and the observance of their religious belief, should contact the instructor early in the semester. In such an event, reasonable accommodations will be provided to the extent they do not create an unreasonable burden on the College.
 
