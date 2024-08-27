@@ -74,3 +74,9 @@ Does your code work as prescribed when you input
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.
+
+
+
+
+---
+_This problem is based on this [kata on Codewar](https://www.codewars.com/kata/5906436806d25f846400009b)._
