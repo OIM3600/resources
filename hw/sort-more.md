@@ -3,10 +3,9 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `sort-more`. Then, under `sort-more` folder, create a new file, `sort.py`. 
-3. Under `sort-more` folder, create a new file, `answers.md`. Copy the code from [`answers.md`](./sort-more/answers.md) on GitHub, and paste to the `answers.md` file you create in VS Code.
+2. Inside `hw` folder, create a new folder `sort-more`. Within the `sort-more` folder, create a new file, `sort.py`.
+3. Within the `sort-more` folder, create a new file, `answers.md`. Copy the code from [`answers.md`](./sort-more/answers.md) on GitHub, and paste to the `answers.md` file you create in VS Code.
 4. Download `sort.zip` file from [`sort.zip`](./sort-more/sort.zip) on GitHub. Extract all the files from `sort.zip` into the `data` folder, which should be inside the main `OIM3600` folder. Make sure all the `.txt` files are **directly** inside the **`"data"`** folder (not the `"sort-more"` folder or `"data/sort"` folder).
-
 
 ## Background
 
@@ -16,7 +15,6 @@ Recall from lecture that we saw a few algorithms for sorting a sequence of numbe
 - **Bubble sort** compares pairs of adjacent values one at a time and swaps them if they are in the incorrect order. This continues until the list is sorted.
 - **Merge sort** recursively divides the list into two repeatedly and then merges the smaller lists back into a larger one in the correct order.
 
-
 ## Instructions
 
 1. Create functions in `sort.py` to implement different sorting algorithms (**selection sort**, **bubble sort**, and **merge sort**) on the given different types of data (lists of numbers/integers).
@@ -24,6 +22,7 @@ Recall from lecture that we saw a few algorithms for sorting a sequence of numbe
 3. Implement timing functionality in your code to measure the execution time for each sorting algorithm on different datasets. Hint: Import the `time` module and use `time.time()` to record the start and end times.
 
 ### Expected Output (Note: the running time will vary):
+
 ```shell
 > python sort.py
 Now sorting random5000.txt
@@ -72,7 +71,7 @@ Bubble Sorting running time: 137.666246175766s
 Merge Sorting running time: 0.0695810317993164s
 ```
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

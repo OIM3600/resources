@@ -3,13 +3,11 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to oplen the folder in your **VS Code**.
-2. In VS Code, create a new folder `plates-less`. Then, under `plates-less` folder, create a new file, `plates.py`.
-
+2. Inside `hw` folder, create a new folder `plates-less`. Within the `plates-less` folder, create a new file, `plates.py`.
 
 ## Vanity Plates
 
 In Massachusetts, it's possible to [request a vanity license plate](https://www.mass.gov/how-to/request-a-vanity-license-plate) for your car, with your choice of letters and numbers instead of random ones. Among the requirements, though, are:
-
 
 - All vanity plates must start with at least two letters.
 - … vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.
@@ -37,7 +35,7 @@ main()
 <details>
 <summary>Hints:</summary>
 
-1. Recall that a `str` comes with quite a few [methods](https://docs.python.org/3/library/stdtypes.html#string-methods). 
+1. Recall that a `str` comes with quite a few [methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 2. Much like a `list`, a str is a “sequence” (of characters), which means it can be [sliced](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations) into shorter strings with syntax like `s[i:j]`. For instance, if `s` is `"OIM3600"`, then `s[0:3]` would be `"OIM"`.
   
 </details>
@@ -45,43 +43,42 @@ main()
 ## How to Test
 
 Here's how to test your code manually:
+
 - Type `BABSON` and press Enter. Your program should output:
-    ```
+    ```python
     Valid
     ```
 - Type `OIM360` and press Enter. Your program should output:
-    ```
+    ```python
     Valid
     ```
 
 - Type `OIM036` and press Enter. Your program should output:
-    ```
+    ```python
     Invalid
     ```
 
 - Type `OIM36X` and press Enter. Your program should output
-    ```
+    ```python
     Invalid
     ```
 
 - Type `OIM.36` and press Enter. Your program should output
-    ```
+    ```python
     Invalid
     ```
 
 - Type `BAB ON` and press Enter. Your program should output
-    ```
+    ```python
     Invalid
     ```
 
 - Type `BABSONCOLLEGE` and press Enter. Your program should output
-    ```
+    ```python
     Invalid
     ```
 
-
-
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

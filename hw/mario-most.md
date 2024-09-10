@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `mario-most`. Then, under `mario-most` folder, create a new file, `mario.py`.
-
+2. In VS Code, check if there is already a folder named `hw`. If it doesn't exist, create one. Otherwise, move to the next step.
+3. Inside the `hw` folder, create a new folder `mario-most`. Within the `mario-most` folder, create a new file, `mario.py`.
 
 ## World ✕
 
@@ -52,7 +52,6 @@ Notice that the diagonal lines of the "✕" are made up of `■`, while the spac
 
 Open your `mario.py` file to implement this problem as described!
 
-
 ## How to Test Your Code
 
 Does your code work as prescribed when you input
@@ -63,20 +62,16 @@ Does your code work as prescribed when you input
 - Letters or words?
 - No input at all, when you only hit Enter?
 
-
 ## Easy? Let's try something else
 
 - Search how to use f-string, which could make your code shorter and easier to understand.
 - Try to create functions to wrap up some logical code blocks.
 - Try to create different shapes or patterns.
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.
-
-
-
 
 ---
 _This problem is based on this [kata on Codewar](https://www.codewars.com/kata/5906436806d25f846400009b)._

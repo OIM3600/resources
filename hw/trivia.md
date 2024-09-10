@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `trivia`. Then, under `trivia` folder, create a new file, `trivia.html`. Copy the code from [`index.html`](./trivia/index.html) on GitHub, and paste to the `trivia.html` file you create in VS Code. 
-3. Under `trivia` folder, create a new file, `styles.css`. Copy the code from [`styles.css`](./trivia/styles.css) on GitHub, and paste to the `styles.css` file you create in VS Code. 
+2. Inside `hw` folder, create a new folder `trivia`. Within the `trivia` folder, create a new file, `trivia.html`. Copy the code from [`index.html`](./trivia/index.html) on GitHub, and paste to the `trivia.html` file you create in VS Code.
+3. Within the `trivia` folder, create a new file, `styles.css`. Copy the code from [`styles.css`](./trivia/styles.css) on GitHub, and paste to the `styles.css` file you create in VS Code.
 
 ## Goal
 
@@ -29,13 +29,11 @@ Design a webpage using HTML, CSS, and JavaScript to let users answer trivia ques
 - Using JavaScript, add logic so that the text field changes color when a user confirms their answer.
   - If the user types an incorrect answer and presses the confirmation button, the text field should turn red and text should appear beneath the question that says “Incorrect”.
   - If the user types the correct answer and presses the confirmation button, the input field should turn green and text should appear beneath the question that says “Correct!”.
-         
 
 ## Hints
 
 - Use `document.querySelector` to query for a single HTML element.
 - Use `document.querySelectorAll` to query for multiple HTML elements that match a query. The function returns an array of all matching elements.
-
 
 ## Optional Tasks
 
@@ -43,8 +41,7 @@ Design a webpage using HTML, CSS, and JavaScript to let users answer trivia ques
 - Add additional trivia questions to your trivia quiz if you would like!
 - Use [REST Countries API](https://restcountries.com/) to generate random trivia questions dynamically.
 
-
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

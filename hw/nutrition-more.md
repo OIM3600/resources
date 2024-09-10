@@ -3,15 +3,13 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `nutrition-more`. Then, under `nutrition-more` folder, create a new file, `nutrition.py`.
-
+2. Inside `hw` folder, create a new folder `nutrition-more`. Within the `nutrition-more` folder, create a new file, `nutrition.py`.
 
 ## Nutrition Facts
 
-The U.S. Food & Drug Adminstration (FDA) offers [downloadable/printable posters](https://www.fda.gov/food/food-labeling-nutrition/nutrition-information-raw-fruits-vegetables-and-fish) that “show nutrition information for the 20 most frequently consumed raw fruits … in the United States. Retail stores are welcome to download the posters, print, display and/or distribute them to consumers in close proximity to the relevant foods in the stores.” 
+The U.S. Food & Drug Adminstration (FDA) offers [downloadable/printable posters](https://www.fda.gov/food/food-labeling-nutrition/nutrition-information-raw-fruits-vegetables-and-fish) that “show nutrition information for the 20 most frequently consumed raw fruits … in the United States. Retail stores are welcome to download the posters, print, display and/or distribute them to consumers in close proximity to the relevant foods in the stores.”
 
-You can find the number of calories in one portion of each fruit, per the [FDA’s poster for fruits](https://cs50.harvard.edu/python/2022/psets/2/nutrition/Nutrition-Information-for-Raw-Fruits---small-PDF-Poster.pdf), which is also [available as text](https://www.fda.gov/food/food-labeling-nutrition/raw-fruits-poster-text-version-accessible-version). Actually [this version](../code/data/nutrition_list.txt) might be easier to parse/use. 
-
+You can find the number of calories in one portion of each fruit, per the [FDA’s poster for fruits](https://cs50.harvard.edu/python/2022/psets/2/nutrition/Nutrition-Information-for-Raw-Fruits---small-PDF-Poster.pdf), which is also [available as text](https://www.fda.gov/food/food-labeling-nutrition/raw-fruits-poster-text-version-accessible-version). Actually [this version](../code/data/nutrition_list.txt) might be easier to parse/use.
 
 ## Total Calories
 
@@ -44,7 +42,6 @@ TOTAL CALORIES: 400
     ```
 3. Take care to output the fruit’s calories, not calories from fat!
 
-  
 </details>
 
 ## How to Test
@@ -63,7 +60,7 @@ Here's how to test your code manually:
     Calories: 100
     ```
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

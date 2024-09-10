@@ -18,6 +18,6 @@ Now, let the adventure begin! Whether you choose to collaborate as a group or wo
 
 Upon completion of your project, take one final step: select "**File > Save**" to preserve your work. Then, choose "**File > Save to your computer**" and keep that file for submission. If your computer prompts you to "**Open**" or "**Save**" the file, ensure you select "**Save**."
 
-# When you finish:
+## When you finish:
 
 Upon completion of your project, take one final step: select "File > Save" to preserve your work. Then, choose "File > Save to your computer" and keep that file for submission. If your computer prompts you to "Open" or "Save" the file, ensure you select "Save." Submit the .sb3 file on Canvas.

@@ -3,9 +3,9 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `assembler-less`. 
-3. Under `assembler-less` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-less/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
-3. Under `assembler-less` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-less/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
+2. Inside `hw` folder, create a new folder `assembler-less`.
+3. Within the `assembler-less` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-less/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
+4. Within the `assembler-less` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-less/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
 
 ## Create an interpreter of assembler
 
@@ -19,10 +19,9 @@ In this task, you will build a straightforward interpreter for a simplified [ass
 
 Your task is to implement the `assembler` function in the `assembler.py` file. This function will take an input list containing a sequence of program instructions and execute them. The program execution continues until there are no more instructions to process, at which point it should return an integer representing the final content of the register.
 
-
 ## Example
 
-```
+```python
 # input
 ['dec 8', 'inc 7', 'inc 6', 'dec 3', 'inc 8', 'dec 2']
 
@@ -35,6 +34,7 @@ inc 8
 dec 2
 ```
 The above code will (remember the initial value of register is `0`):
+
 - decrease its value by 8,
 - increase its value by 7,
 - increase its value by 6,
@@ -43,7 +43,7 @@ The above code will (remember the initial value of register is `0`):
 - decrease its value by 2
   
 So, the function `assembler` should return the register value:
-```
+```python
 8
 ```
 
@@ -51,7 +51,7 @@ So, the function `assembler` should return the register value:
 
 - Simply run `assembler_test.py` in the same folder.
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

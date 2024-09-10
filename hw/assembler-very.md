@@ -3,9 +3,9 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `assembler-very`. 
-3. Under `assembler-very` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-very/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
-3. Under `assembler-very` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-very/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
+2. Inside `hw` folder, create a new folder `assembler-very`.
+3. Within the `assembler-very` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-very/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
+4. Within the `assembler-very` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-very/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
 
 ## Create an interpreter of assembler
 
@@ -25,7 +25,7 @@ Your task is to implement the `assembler` function in the `assembler.py` file. T
 
 ## Example
 
-```
+```python
 # input
 ["mov a 5"; "inc a"; "dec a"; "dec a"; "jnz a -1"; "inc a"]
 
@@ -46,10 +46,8 @@ The above code will:
 - then decrease its value until it is zero (`jnz a -1` jumps to the previous instruction if `a` is not zero)
 - and then increase its value by `1`, leaving register `a` at `1`
 
-
-  
 So, the function `assembler` should return:
-```
+```python
 {'a': 1}
 ```
 
@@ -58,11 +56,10 @@ So, the function `assembler` should return:
 - Simply run `assembler_test.py` in the same folder.
 - You can also test your function on [Codewar](https://www.codewars.com/kata/58e24788e24ddee28e000053).
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.
-
 
 ---
 _This problem is based on this [kata on Codewar](https://www.codewars.com/kata/58e24788e24ddee28e000053) which was based on the [Advent of Code 2016 - day 12](https://adventofcode.com/2016/day/12)._

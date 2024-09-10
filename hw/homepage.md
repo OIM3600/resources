@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `homepage`. Then, under `hompage` folder, create `.html`, `.css`, `.js` files following the instructions.
+2. Inside `hw` folder, create a new folder `homepage`. Within the `homepage` folder, create `.html`, `.css`, `.js` files following the instructions.
 
 ## Background
 
@@ -15,13 +15,12 @@ The internet has enabled incredible things: we can use a search engine to resear
 
 Create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
 
-
 ## Specification
 
 Implement in your homepage directory a website that must:
 
 - Contain at least **two** different `.html` pages, at least one of which is `index.html` (the main page of your website), and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
-- Use at least eight (8) distinct HTML tags besides `<html>`,` <head>`, `<body>`, and `<title>`. Using some tag (e.g., `<p>`) multiple times still counts as just one (1) of those eight!
+- Use at least eight (8) distinct HTML tags besides `<html>`,`<head>`, `<body>`, and `<title>`. Using some tag (e.g., `<p>`) multiple times still counts as just one (1) of those eight!
 - Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library (that comes with lots of CSS classes and more) via which you can beautify your site. See Bootstrap’s documentation to get started. In particular, you might find some of Bootstrap’s components of interest. To add Bootstrap to your site, it suffices to include
     ```html
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -58,8 +57,7 @@ For fairly comprehensive guides on the languages introduced in this problem, che
 - JavaScript
   - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [W3S](https://www.w3schools.com/js/)
 
-
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

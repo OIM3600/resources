@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `mario-more`. Then, under `mario-more` folder, create a new file, `mario.py`.
-
+2. In VS Code, check if there is already a folder named `hw`. If it doesn't exist, create one. Otherwise, move to the next step.
+3. Inside the `hw` folder, create a new folder `mario-more`. Within the `mario-more` folder, create a new file, `mario.py`.
 
 ## World 1-1
 
@@ -51,7 +51,6 @@ Height: 4
 
 Here’s how the program might work if the user inputs `2` when prompted:
 
-
 ```shell
 > python mario.py
 Height: 2
@@ -60,7 +59,6 @@ Height: 2
 ```
 
 And here’s how the program might work if the user inputs `1` when prompted:
-
 
 ```shell
 > python mario.py
@@ -87,8 +85,6 @@ Notice that width of the “gap” between adjacent pyramids is equal to the wid
 
 Open your `mario.py` file to implement this problem as described!
 
-
-
 ## How to Test Your Code
 
 Does your code work as prescribed when you input
@@ -100,14 +96,13 @@ Does your code work as prescribed when you input
 - letters or words?
 - no input at all, when you only hit Enter?
 
-
 ## Easy? Let's try something else
 
 - Search how to use f-string, which could make your code shorter and easier to understand.
 - Try to create functions to wrap up some logical code blocks.
 - Try to create other shapes in Mario.
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

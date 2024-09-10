@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `prophecy`. Then, under `prophecy` folder, create `scheme.sql` and `prophecy.py`.
-3. Download `roster.db` file from [`roster.db`](./prophecy/roster.db) on GitHub. Download `students.csv` file from [`students.csv`](./prophecy/students.csv) on GitHub. Copy the downloaded files, `roster.db` and `students.csv` into the `data` folder, which should be inside the main `OIM3600` folder. 
+2. Inside `hw` folder, create a new folder `prophecy`. Within the `prophecy` folder, create `scheme.sql` and `prophecy.py`.
+3. Download `roster.db` file from [`roster.db`](./prophecy/roster.db) on GitHub. Download `students.csv` file from [`students.csv`](./prophecy/students.csv) on GitHub. Copy the downloaded files, `roster.db` and `students.csv` into the `data` folder, which should be inside the main `OIM3600` folder.
 
 ## Learning Goals
 
@@ -12,13 +12,11 @@
 - Use `SELECT`, `CREATE`, and `INSERT` statements to reorganize data
 - Write Python to load new SQL tables
 
-
 ## Background
 
 The keeper of [the Hall of Prophecy](https://harrypotter.fandom.com/wiki/Hall_of_Prophecy), whose job entailed labelling records and keeping them up to date, decided to create a SQL database of Hogwarts students. Unfortunately the database was poorly designed! The database, `roster.db`, contains only one table, `students`, with the name and head of each of the four Hogwarts Houses.
 
 Stumbling upon this database, you decide it could be better designed. Take a look at `roster.db` and notice how the name and head of each house repeats over and over. A better design would contain a students table (for *only* students), a houses table (for *only* houses), and a table that codifies the relationship between students and houses. This process of changing the “schema” of a database is known as [refactoring](https://en.wikipedia.org/wiki/Database_refactoring).
-
 
 <details>
 <summary>Hints:</summary>
@@ -26,11 +24,9 @@ Stumbling upon this database, you decide it could be better designed. Take a loo
 You can then use `SELECT` statements to view the contents of this table.
 </details>
 
-
 ## Implementation Details
 
 You will use the existing data in roster.db to create a new database, one with a table for students, a table for houses, and a table for house assignments. You can do this with individual `SQL` queries, though we recommend ultimately writing your own Python program to automate the process! Notice we’ve given you the data from the students table of `roster.db` in CSV format, `students.csv`, for your convenience.
-
 
 ### Developing a Schema
 
@@ -59,8 +55,7 @@ After you’ve configured your database with your new schema, you can begin inse
 
 - Why do you think it’s considered better design not to repeat information like houses and heads for each student?
 
-
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

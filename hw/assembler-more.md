@@ -3,9 +3,9 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `assembler-more`. 
-3. Under `assembler-more` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-more/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
-3. Under `assembler-more` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-more/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
+2. Inside `hw` folder, create a new folder `assembler-more`.
+3. Within the `assembler-more` folder, create a new file, `assembler.py`. Copy the code from [`assembler.py`](./assembler/assembler-more/assembler.py) on GitHub, and paste to the `assembler.py` file you create in VS Code.
+4. Within the `assembler-more` folder, create a new file, `test_assembler.py`. Copy the code from [`test_assembler.py`](./assembler/assembler-more/test_assembler.py) on GitHub, and paste to the `test_assembler.py` file you create in VS Code.
 
 ## Create an interpreter of assembler
 
@@ -23,7 +23,7 @@ Your task is to implement the `assembler` function in the `assembler.py` file. T
 
 ## Example
 
-```
+```python
 # input
 ["mov a 5", "inc a", "dec a", "mov b a", "dec a", "inc b"]
 
@@ -37,6 +37,7 @@ dec a
 inc b
 ```
 The above code will:
+
 - set register `a` to `5`,
 - increase `a`'s value by 1,
 - decrease `a`'s value by 1,
@@ -44,9 +45,8 @@ The above code will:
 - decrease `a`'s value by 1
 - increase `b`'s value by 1
 
-  
 So, the function `assembler` should:
-```
+```python
 {'a': 4, 'b': 6}
 ```
 
@@ -54,7 +54,7 @@ So, the function `assembler` should:
 
 - Simply run `assembler_test.py` in the same folder.
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

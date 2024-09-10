@@ -3,7 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `credit`. Then, under `credit` folder, create a new file, `credit.py`.
+2. In VS Code, check if there is already a folder named `hw`. If it doesn't exist, create one. Otherwise, move to the next step.
+3. Inside the `hw` folder, create a new folder `credit`. Within the `credit` folder, create a new file, `credit.py`.
 
 ## Credit Cards
 
@@ -11,10 +12,9 @@ A credit (or debit) card, of course, is a plastic card with which you can pay fo
 
 Actually, that’s a bit of an exaggeration, because credit card numbers actually have some structure to them:
 
-- All American Express numbers start with 34 or 37; 
+- All American Express numbers start with 34 or 37;
 - Most MasterCard numbers start with 51, 52, 53, 54, or 55 (they also have some other potential starting numbers which we won’t concern ourselves with for this problem);  
-- All Visa numbers start with 4. 
-
+- All Visa numbers start with 4.
 
 But credit card numbers also have a **“checksum”** built into them, a mathematical relationship between at least one number and others. That checksum enables computers (or humans who like math) to detect typos (e.g., transpositions), if not fraudulent numbers, without having to query a database, which can be slow. Of course, a dishonest mathematician could certainly craft a fake number that nonetheless respects the mathematical constraint, so a database lookup is still necessary for more rigorous checks.
 Luhn’s Algorithm
@@ -28,7 +28,7 @@ So what’s the secret formula? Well, most cards use an algorithm invented by Ha
 That’s kind of confusing, so let’s try an example with a Visa card: 4003600000000014.
 
 1. For the sake of discussion, let’s first underline every other digit, starting with the number’s second-to-last digit:
-   
+
     <u>4</u>0<u>0</u>3<u>6</u>0<u>0</u>0<u>0</u>0<u>0</u>0<u>0</u>0<u>1</u>4
 
     Okay, let’s multiply each of the underlined digits by 2:
@@ -85,7 +85,7 @@ Test out your program with a whole bunch of inputs, both valid and invalid. (We 
 
 If your program behaves incorrectly on some inputs (or doesn’t compile at all), time to debug!
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

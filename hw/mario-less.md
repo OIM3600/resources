@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `mario-less`. Then, under `mario-less` folder, create a new file, `mario.py`.
-
+2. In VS Code, check if there is already a folder named `hw`. If it doesn't exist, create one. Otherwise, move to the next step.
+3. Inside the `hw` folder, create a new folder `mario-less`. Within the `mario-less` folder, create a new file, `mario.py`.
 
 ## World 1-1
 
@@ -75,9 +75,10 @@ Height: 4
  ###
 ####
 ```
-# Very Detailed Step-by-Step Instructions
 
-## Pseudocode
+## Very Detailed Step-by-Step Instructions
+
+### Pseudocode
 
 Create a new file, `pseudocode.txt` inside folder `mario-less`. Write in `pseudocode.txt` some pseudocode that implements this program, even if not (yet!) sure how to write it in code. There’s no one right way to write pseudocode, but short English sentences suffice. Odds are your pseudocode will use (or imply using!) one or more functions, conditionals, Boolean expressions, loops, and/or variables.
 
@@ -95,10 +96,9 @@ It’s okay to edit your own after seeing this pseudocode here, but don’t simp
   
 </details>
 
+### Prompting for Input
 
-## Prompting for Input
-
-Whatever your pseudocode is, let’s first write only the Python code that prompts (and re-prompts, as needed) the user for input. 
+Whatever your pseudocode is, let’s first write only the Python code that prompts (and re-prompts, as needed) the user for input.
 
 Now, modify `mario.py` in such a way that it prompts the user for the pyramid’s height, storing their input in a variable, re-prompting the user again and again as needed if their input is not a positive integer between `1` and `8`, inclusive. Then, simply print the value of that variable, thereby confirming (for yourself) that you’ve indeed stored the user’s input successfully, a la the below.
 
@@ -112,7 +112,7 @@ Height: 4
 Stored: 4
 ```
 
-## Building the Opposite
+### Building the Opposite
 
 Now that your program is (hopefully!) accepting input as prescribed, it’s time for another step.
 
@@ -133,7 +133,6 @@ So let’s build a left-aligned pyramid first and then, once that’s working, r
 
 Modify `mario.py` at right such that it no longer simply prints the user’s input but instead prints a left-aligned pyramid of that height.
 
-
 <details>
 <summary>(Spoiler Warning!) Hints:</summary>
 
@@ -151,7 +150,7 @@ for i in range(n):
 
 </details>
 
-## Right-Aligning with Dots
+### Right-Aligning with Dots
 
 Let’s now right-align that pyramid by pushing its hashes to the right by prefixing them with dots (i.e., periods, `.`), a la the below.
 
@@ -176,7 +175,6 @@ Notice how the number of dots needed on each line is the “opposite” of the n
 
 </details>
 
-
 ## How to Test Your Code
 
 Does your code work as prescribed when you input
@@ -197,7 +195,7 @@ All that remains now is a finishing flourish! Modify `mario.py` in such a way th
 - Search how to use f-string, which could make your code shorter and easier to understand.
 - Try [Mario (more comfortable version)](mario-more.md).
 
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.

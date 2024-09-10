@@ -3,8 +3,8 @@
 ## Getting Started
 
 1. On GitHub Desktop, make sure your current repository is `OIM3600`. Then click `Repository` -> `Open in Visual Studio Code` to open the folder in your **VS Code**.
-2. In VS Code, create a new folder `songs`. Then, under `songs` folder, create files named `1.sql` through `9.sql`.
-3. Download `songs.db` file from [`songs.db`](./songs/songs.db) on GitHub. Copy the downloaded file `songs.db` into the `data` folder, which should be inside the main `OIM3600` folder. 
+2. Inside `hw` folder, create a new folder `songs`. Within the `songs` folder, create files named `1.sql` through `9.sql`.
+3. Download `songs.db` file from [`songs.db`](./songs/songs.db) on GitHub. Copy the downloaded file `songs.db` into the `data` folder, which should be inside the main `OIM3600` folder.
 
 ## Understanding
 
@@ -15,7 +15,6 @@ First, when `sqlite3` prompts you to provide a query, type `.schema` and press <
 Notice that every `artist` has an `id` and a `name`. Notice, too, that every `song` has a `name`, an `artist_id` (corresponding to the `id` of the artist of the song), as well as values for the danceability, energy, key, loudness, speechiness (presence of spoken words in a track), valence, tempo, and duration of the song (measured in milliseconds).
 
 The challenge ahead of you is to write SQL queries to answer a variety of different questions by selecting data from one or more of these tables. After you do so, you’ll reflect on the ways Spotify might use this same data in their annual [Spotify Wrapped](https://en.wikipedia.org/wiki/Spotify_Wrapped) campaign to characterize listeners’ habits.
-
 
 ## Implementation Details
 
@@ -43,7 +42,6 @@ For each of the following problems, you should write a single SQL query that out
    - Your query should output a table with a single column for the name of each song.
 9. **Your Query Challenge**: In `9.sql`, create your own SQL query that uses at least one JOIN operation to extract specific information from the database. Write the SQL query, state your purpose, and provide a brief explanation.
 
-
 <details>
 <summary>Hints:</summary>
 
@@ -51,23 +49,22 @@ See this [SQL keywords reference](https://www.w3schools.com/sql/sql_ref_keywords
   
 </details>
 
-
 ## Spotify Wrapped
 
-[Spotify Wrapped](https://en.wikipedia.org/wiki/Spotify_Wrapped) is a feature presenting Spotify users’ 100 most played songs from the past year. In 2021, Spotify Wrapped calculated an “[Audio Aura](https://newsroom.spotify.com/2021-12-01/learn-more-about-the-audio-aura-in-your-spotify-2021-wrapped-with-aura-reader-mystic-michaela/)” for each user, a “reading of [their] two most prominent moods as dictated by [their] top songs and artists of the year.” Suppose Spotify determines an audio aura by looking at the average energy, valence, and danceability of a person’s top 100 songs from the past year. Create `answers.txt` under `songs` folder, reflect on the following questions:
+[Spotify Wrapped](https://en.wikipedia.org/wiki/Spotify_Wrapped) is a feature presenting Spotify users’ 100 most played songs from the past year. In 2021, Spotify Wrapped calculated an “[Audio Aura](https://newsroom.spotify.com/2021-12-01/learn-more-about-the-audio-aura-in-your-spotify-2021-wrapped-with-aura-reader-mystic-michaela/)” for each user, a “reading of [their] two most prominent moods as dictated by [their] top songs and artists of the year.” Suppose Spotify determines an audio aura by looking at the average energy, valence, and danceability of a person’s top 100 songs from the past year. Create `answers.txt` inside the `songs` folder, reflect on the following questions:
 
 1. If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
 2. Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
 
 Be sure to submit `answers.txt` along with your `.sql` files!
 
-
-# How to Submit
+## How to Submit
 
 - Save all the files opened in VS Code. Format your Python code before saving.
 - **Commit** and **Push to Origin** in GitHub Desktop. Check repository on GitHub.com to make sure all the commits are successfully pushed to remote.
 
 ---
+
 ### Acknowledgements
 
 Dataset from [Kaggle](https://www.kaggle.com/nadintamer/top-spotify-tracks-of-2018).
