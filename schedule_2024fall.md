@@ -34,4 +34,5 @@
 
 **Notice:** For information on deadlines and quiz times, please refer to the Canvas website. Please note that the schedule provided here is subject to change and is for tentative planning purposes only.
 
-_updated: 8/21/2024_
+---
+*Updated*: 8/21/2024
