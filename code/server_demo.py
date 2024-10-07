@@ -1,7 +1,7 @@
 import socket
 
 
-def start_server(local_ip='localhost', port=4242):
+def start_server(local_ip="localhost", port=4242):
     """
     Start a TCP server that listens for incoming client connections.
     """
@@ -16,9 +16,9 @@ def start_server(local_ip='localhost', port=4242):
         # Listen for incoming client connections
         server.listen(1)
 
-        print('Waiting for a client to connect...')
+        print("Waiting for a client to connect...")
         client, client_address = server.accept()
-        print(f'Connection from client {client_address[0]}:{client_address[1]}')
+        print(f"Connection from client {client_address[0]}:{client_address[1]}")
 
         # Receive request from the client
         request = client.recv(100)
@@ -33,9 +33,9 @@ def start_server(local_ip='localhost', port=4242):
 
 def main():
     """"""
-    local_ip = 'SERVER IP ADDRESS'
+    local_ip = "SERVER IP ADDRESS"
     start_server(local_ip)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

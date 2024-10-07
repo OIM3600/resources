@@ -8,7 +8,7 @@ def initilize_db():
     """
     # Connect to the SQLite database
     conn = sqlite3.connect(
-        'data/sql_injection_example.db',
+        "data/sql_injection_example.db",
     )
 
     # Create a cursor object
@@ -16,21 +16,21 @@ def initilize_db():
 
     # create users table
     cursor.execute(
-        '''
+        """
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT NOT NULL,
             password TEXT NOT NULL
         )
-    '''
+    """
     )
 
     # insert demo records
     cursor.execute(
-        "INSERT INTO users (username, password) VALUES (?, ?)", ('user1', 'password1')
+        "INSERT INTO users (username, password) VALUES (?, ?)", ("user1", "password1")
     )
     cursor.execute(
-        "INSERT INTO users (username, password) VALUES (?, ?)", ('user2', 'password2')
+        "INSERT INTO users (username, password) VALUES (?, ?)", ("user2", "password2")
     )
     conn.commit()
 
@@ -107,7 +107,7 @@ def main():
     """"""
     # initilize_db()
 
-    with sqlite3.connect('data/sql_injection_example.db') as conn:
+    with sqlite3.connect("data/sql_injection_example.db") as conn:
         cursor = conn.cursor()
         # select_all(cursor)
         # unsafe_login(cursor)
