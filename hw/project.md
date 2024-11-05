@@ -104,8 +104,8 @@ Suggestions for the frontend in FastAPI/Flask:
 
 - Organize your static files (CSS, JavaScript, images) in a dedicated `static` directory.
 - Use your framework's method for serving static files.
-  - [Flask Static Files](https://flask.palletsprojects.com/en/3.0.x/quickstart/#static-files)
   - [FastAPI Static Files](https://fastapi.tiangolo.com/tutorial/static-files/)
+  - [Flask Static Files](https://flask.palletsprojects.com/en/3.0.x/quickstart/#static-files)
 
 ### 5. Database (Optional)
 
@@ -145,7 +145,7 @@ You are encouraged to use GenAI tools like ChatGPT to assist with your project:
 
 ### 9. Deploy on Cloud/Platform (Optional)
 
-- Deploy your FastAPI/Flask web application on a cloud/platform such as [PythonAnywhere](https://www.pythonanywhere.com/details/FastAPI/Flask_hosting), [Heroku](https://devcenter.heroku.com/categories/python-support), or [DigitalOcean](https://www.digitalocean.com/community/tutorial-series/how-to-create-web-sites-with-FastAPI/Flask).
+- Deploy your FastAPI/Flask web application on a cloud/platform such as [PythonAnywhere](https://www.pythonanywhere.com/details/flask_hosting), [Heroku](https://devcenter.heroku.com/categories/python-support), or [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-app-using-gunicorn-to-app-platform).
 
 ---
 
@@ -214,4 +214,4 @@ Please refer to Canvas for the due date.
 
 ---
 
-*Updated:* *2024/10/31*
+*Updated:* *2024/11/05*
