@@ -19,7 +19,7 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const image = new Image();
-        image.src = "babson.jpg";
+        image.src = "images/babson.jpg";
         const originalCanvas = document.getElementById("original-canvas");
         const rgbInfo = document.getElementById("rgb-info");
 
@@ -31,14 +31,21 @@
         const ctx = myCanvas.getContext("2d");
 
         image.onload = function () {
-          // Set the canvas size to match the image size
-          originalCanvas.width = image.width;
-          originalCanvas.height = image.height;
-          myCanvas.width = image.width;
-          myCanvas.height = image.height;
+          // Calculate half of the screen height
+          const targetHeight = window.innerHeight / 2;
 
-          // Draw the image on the original canvas
-          originalContext.drawImage(image, 0, 0);
+          // Calculate the width to maintain the aspect ratio
+          const aspectRatio = image.width / image.height;
+          const targetWidth = targetHeight * aspectRatio;
+
+          // Set the canvas sizes to the target width and height
+          originalCanvas.width = targetWidth;
+          originalCanvas.height = targetHeight;
+          myCanvas.width = targetWidth;
+          myCanvas.height = targetHeight;
+
+          // Draw the image on the original canvas, scaled to the new dimensions
+          originalContext.drawImage(image, 0, 0, targetWidth, targetHeight);
 
           // Add mouse event handler
           originalCanvas.addEventListener("mousemove", pick);
