@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Fetching API Demo</title>
+  </head>
+  <body>
+    <button>Click</button>
+    <ul id="result-list"></ul>
+
+    <script>
+      const list = document.querySelector("#result-list");
+      async function getData() {
+        console.log("fetching data...");
+
+        const config = {
+          headers: {
+            Accept: "application/json",
+          },
+        };
+
+        const url = "https://icanhazdadjoke.com/";
+        const response = await fetch(url, config);
+        const data = await response.json();
+        console.log(data);
+
+        const jokeLI = document.createElement("li");
+        jokeLI.innerText = data["joke"];
+        list.appendChild(jokeLI);
+      }
+
+      document.querySelector("button").addEventListener("click", () => {
+        getData();
+      });
+    </script>
+  </body>
+</html>
