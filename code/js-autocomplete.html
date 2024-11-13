@@ -7,31 +7,77 @@
   </head>
   <body>
     <input type="text" autocomplete="off" />
-    <ul></ul>
+    <ul id="autocomplete-list"></ul>
 
-    <!-- <script src="scripts/words.js"></script> -->
+    <!-- Include the external JavaScript file containing the words array -->
+    <script src="words.js"></script>
+
     <script>
+      // Get the input element
+      let input = document.querySelector("input");
+
+      // Add an event listener for the keyup event on the input element
+      input.addEventListener("keyup", function (event) {
+        let listItemsHTML = "";
+
+        // Check if the input value is not empty
+        if (input.value) {
+          // Iterate through the words array and filter words that start with the input value
+          for (let word of WORDS) {
+            if (word.startsWith(input.value)) {
+              // Append the matching word to the list items HTML
+              listItemsHTML += `<li>${word}</li>`;
+            }
+          }
+        }
+
+        // Get the autocomplete list element
+        let ul = document.querySelector("#autocomplete-list");
+
+        // Update the inner HTML of the autocomplete list with the filtered words
+        if (ul) {
+          ul.innerHTML = listItemsHTML;
+        }
+      });
+    </script>
+
+    <!-- <script>
+      // Initialize an empty array to store words
       let words = [];
 
+      // Fetch words from the provided URL
       fetch("https://oim.108122.xyz/words")
         .then((response) => response.json())
         .then((data) => {
+          // Store the fetched words in the words array
           words = data.words;
 
+          // Get the input element
           const input = document.querySelector("input");
 
+          // Add an event listener for the keyup event on the input element
           input.addEventListener("keyup", function (event) {
-            let html = "";
+            let listItemsHTML = "";
             if (input.value) {
-              for (word of words) {
+              // Filter and display words that start with the input value
+              for (let word of words) {
                 if (word.startsWith(input.value)) {
-                  html += `<li>${word}</li>`;
+                  listItemsHTML += `<li>${word}</li>`;
                 }
               }
             }
-            document.querySelector("ul").innerHTML = html;
+            // Get the autocomplete list element
+            const ul = document.querySelector("#autocomplete-list");
+            if (ul) {
+              // Update the inner HTML of the autocomplete list
+              ul.innerHTML = listItemsHTML;
+            }
           });
+        })
+        .catch((error) => {
+          // Log any errors that occur during the fetch
+          console.error("Error fetching words:", error);
         });
-    </script>
+    </script> -->
   </body>
 </html>

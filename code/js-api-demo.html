@@ -10,26 +10,35 @@
     <ul id="result-list"></ul>
 
     <script>
+      // Select the result list element
       const list = document.querySelector("#result-list");
+
+      // Function to fetch data from the API
       async function getData() {
         console.log("fetching data...");
 
+        // Configuration for the fetch request
         const config = {
           headers: {
             Accept: "application/json",
           },
         };
 
+        // API endpoint
         const url = "https://icanhazdadjoke.com/";
+
+        // Fetch data from the API
         const response = await fetch(url, config);
         const data = await response.json();
         console.log(data);
 
+        // Create a new list item and add the joke to it
         const jokeLI = document.createElement("li");
         jokeLI.innerText = data["joke"];
         list.appendChild(jokeLI);
       }
 
+      // Add event listener to the button to fetch data on click
       document.querySelector("button").addEventListener("click", () => {
         getData();
       });
